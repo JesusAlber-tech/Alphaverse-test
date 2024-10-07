@@ -2,10 +2,14 @@
 This project is a simple implementation of JWT (JSON Web Token) authentication using Node.js and Express. The project is deployed on Render, a fully managed cloud platform.
 
 ## Project Structure
-## User Model: Contains hardcoded user data.
-## Auth Middleware: Checks for valid JWT before granting access to certain routes.
-## Auth Controller: Handles login requests, validates user credentials, and issues JWT.
-## User Controller: Handles user data retrieval with JWT authorization.
+## User Model: 
+Contains hardcoded user data.
+## Auth Middleware: 
+Checks for valid JWT before granting access to certain routes.
+## Auth Controller: 
+Handles login requests, validates user credentials, and issues JWT.
+## User Controller: 
+Handles user data retrieval with JWT authorization.
 ## Endpoints
 -Login (public): POST /login. Request body must contain username and password.
 -Get User Data (private): GET /users/:id and GET /users. Requires JWT in request header.
